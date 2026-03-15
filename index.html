@@ -37,6 +37,16 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8T9MSM346F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8T9MSM346F');
+</script>
+
 <!-- Google Analytics - replace G-XXXXXXXXXX with your ID -->
 <!-- Google Analytics: replace G-XXXXXXXXXX with your real ID -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
@@ -783,7 +793,7 @@ button{cursor:pointer;border:none;background:none}
     <div class="trust-bar-grid">
       <div class="trust-item reveal">
         <div class="trust-icon" aria-hidden="true">🏆</div>
-        <div class="trust-num" data-count="1000">10000+</div>
+        <div class="trust-num" data-count="1000">1000+</div>
         <div class="trust-label">Happy Patients</div>
       </div>
       <div class="trust-item reveal reveal-delay-1">
@@ -2153,7 +2163,7 @@ function claudeCall(attempt){
   }).catch(function(err){
     hideTyping();
     hist.pop();
-    botMsg('⏳ Our assistant is busy.But you can book our machines,just send the msg book or  Please call <a href="tel:9246243936" style="color:#1B4FD8;font-weight:700">📞 9246243936</a> for instant help!');
+    botMsg('⏳ Our assistant is busy. Please call <a href="tel:9246243936" style="color:#1B4FD8;font-weight:700">📞 9246243936</a> for instant help!');
     loading=false;snd.disabled=false;inp.focus();
   });
 }
